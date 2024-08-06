@@ -1,5 +1,5 @@
 def registry = 'https://valaxy555.jfrog.io/'
-def imageName = 'valaxy555.jfrog.io/valaxy-docker-doker/ttrend'
+def imageName = 'valaxy555.jfrog.io/valaxy-docker-docker-local/ttrend'
 def version   = '2.1.2'
 
 

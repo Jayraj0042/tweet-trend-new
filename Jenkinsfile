@@ -91,12 +91,12 @@ environment{
             }
         }
     }
-        stage("Deploy"){
-        step {
+       stage("deploy"){
+        steps {
             script {
-                      sh './deploy.sh'  
-                    }
-                }
+                sh './deploy.sh'
             }
+        }
+       }
     }
 }
